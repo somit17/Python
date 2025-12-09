@@ -2,13 +2,13 @@
 
 
 #But not used
-f = open('test.txt','r') #2nd Parameter mode
+f = open('test.txt', 'r') #2nd Parameter mode
 print(f.name)
 f.close()
 
 
 #Recommended
-with open('test.txt','r') as m:
+with open('test.txt', 'r') as m:
     m_contents = m.read() #read(100) ex - read 100 characters
     #readlines() All Lines comes as list
     print(m_contents)
@@ -18,7 +18,7 @@ with open('test.txt','r') as m:
 
 
 
-with open('test.txt','r') as n:
+with open('test.txt', 'r') as n:
     size_to_read = 10
     n_contents = n.read(size_to_read)
     #tell() current position

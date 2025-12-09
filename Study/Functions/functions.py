@@ -1,6 +1,3 @@
-from Lists.lists import courses
-
-
 def hello_func():
     return 'Hello Function !'
 
